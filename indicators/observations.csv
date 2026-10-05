@@ -1,0 +1,6 @@
+type,value,context
+lab_host,172.16.3.223,win-xp-13; academic private address
+process,poisonivy.exe,PID 1504 in this live investigation
+path,C:\WINDOWS\system32\poisonivy.exe,Suspicious file located on suspect host
+path,C:\Inetpub\ftproot\nc.exe,Dual-use tool; not malware proof
+path,C:\Inetpub\ftproot\VNC4\winvnc4.exe,Dual-use remote-access tool; listener unconfirmed
